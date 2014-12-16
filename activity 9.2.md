@@ -8,7 +8,7 @@ You should already have this done:
 2. Rewrite your loop to count how many lines the use inputs. Use the count to print out the contents of the file – the count 
 will tell you how many readlines() you need.
 
-#### Chapter 9 part 2
+##### Chapter 9 part 2
 Redo chapter 9 part 1 so that:
 
 1. There is a procedure that executes the while loop. Pass the file to this procedure as a parameter. Eliminate the counter, 
