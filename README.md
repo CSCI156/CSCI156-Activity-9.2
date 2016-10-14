@@ -1,7 +1,15 @@
 ### Writing/Reading from a file part 2
 
-##### Chapter 9 part 2
-Redo chapter 9 part 1 so that:
+Here is the 9.1 assignment:
 
-1. Write a procedure that has your while loop from 9.1 in it. Pass the file to this procedure as a parameter instead of opening the file in the procedure. Eliminate the counter, that won’t be needed.
-2. Write a new procedure that prints the contents of the file in upper case. Use a for loop that loops over the file to do this. Pass the file to this procedure as a parameter.
+1. Write a while loop with an input statement inside the loop. Define a (single) string that stores all of the inputs by appending the current input to any previous inputs. Exit the loop when the user enters q (or Q). After the loop exits write the output to a file.
+
+2. Rewrite your loop to count how many lines the user inputs. Use the count to read in and print out the contents of the file – the count will tell you how many readlines() you need.
+
+
+##### Chapter 9 part 2
+Redo chapter 9 part 1:
+
+1. Put the while loop that inputs from the keyboard into a procedure. Open the file from the main part of the program using a with statement, call the procedure from inside the with. Pass the file as a parameter to the procedure. Remove the counter from the while loop, you won't need it
+
+2. Put the loop that reads in from the file into a procedure. Open the file in a second with statement, and put your procedure in the with statement using the file as a parameter. Read the contents of the file using a for loop, print the contents of the file in upper case.
